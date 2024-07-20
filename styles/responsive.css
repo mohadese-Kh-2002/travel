@@ -1,0 +1,103 @@
+@media (max-width: 1200px) {
+    .list {
+        flex-basis: 80%;
+    }
+}
+@media (max-width: 992px) {
+    .booktrip__right {
+        margin: auto;
+        top: auto;
+        height: 50rem;
+    }
+    .testimonials__right{
+        padding-top: 20rem;
+    }
+    .testimonials__opinion{
+        max-width:70rem ;
+    }
+    .brands{
+        flex-direction: column;
+        justify-content: center;
+        flex-basis: 40rem;
+        gap: 4rem;
+    }
+    .footer__wrapper{
+        grid-template: 1fr / repeat(2, 1fr);
+        gap: 3rem;
+    }
+}
+@media (max-width: 768px) {
+    .category__active::after {
+        display: none;
+    }
+    .newsletter__title{
+        font-size: 2.2rem;
+    }
+    .newsletter__input-wrapper{
+        width: 80%;
+    }
+    .footer__wrapper{
+        grid-template: 1fr / 1fr;
+        gap: 3rem;
+    }
+   
+}
+@media (max-width: 576px) {
+    .menu-mobile .list__link {
+        font-size: 2rem;
+    }
+    .main__decore-top,.main-decore2 {
+        display: none;
+    }
+    .bookTrip__step {
+        flex-direction: column;
+        text-align: center;
+    }
+    .booktrip__box {
+        top: auto;
+        bottom: -10rem;
+    }
+    .opinion__user-img,
+    .testimonials__opinion--active,
+    .booktrip__box 
+{
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+    .timonials__opinion--active{
+        max-width:50rem;
+    }
+    .newsletter__icon{
+        top: -4rem;
+    }
+    
+    .footer__section{
+        text-align: center;
+        margin: 0 auto;
+    
+    }
+    .footer__icons{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .header__buttons {
+        justify-content: center;
+    }
+    .header__subtitle,
+    .header__title,
+    .header__desc {
+        text-align: center;
+    }
+    .booktrip__right{
+        
+        width: 100%;
+    }
+    .booktrip__box {
+        display: none !important;
+    }
+ 
+}
+
